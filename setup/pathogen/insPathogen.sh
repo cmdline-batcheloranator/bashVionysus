@@ -1,6 +1,6 @@
 mkdir -p                 \
         ~/.vim/autoload  \
-	~/.vim/bundle && \
+	~/.vim/bundle &&
 
 curl -LSso                             \
           ~/.vim/autoload/pathogen.vim \
