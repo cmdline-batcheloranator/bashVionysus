@@ -24,7 +24,7 @@ for i in ${!repos[@]}; do
 done
 
 # fzf install 
-~/.vim/bundle/fzf/install --all
+$bun/fzf/install --all
 
 # python mode setup
 cd $bun/python-mode
