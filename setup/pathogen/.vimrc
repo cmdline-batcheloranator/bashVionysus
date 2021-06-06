@@ -9,6 +9,7 @@ set hlsearch
 set t_Co=256
 set showmode
 set showmatch
+set encoding=utf-8 
 set background=dark
 
 colorscheme PaperColor 
