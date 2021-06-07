@@ -20,7 +20,7 @@ Installs and configures the following plugins using pathogen, No further setup r
 
 ## links:
 
-you shouldn't require further setup but for customisation checkout plugin sources:
+For more customisation checkout plugin sources:
 
 - [fzf](https://github.com/junegunn/fzfe)
 - [tagbar](https://github.com/majutsushi/tagbar)
