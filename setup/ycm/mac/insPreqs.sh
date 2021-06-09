@@ -1,7 +1,7 @@
 brew install          \
            go         \
 	   mono       \
-           ctagsi     \
+           ctags      \
 	   cmake      \
 	   nodejs     \
 	   python     \
