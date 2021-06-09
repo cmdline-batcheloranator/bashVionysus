@@ -11,7 +11,6 @@ repos=(
    ['Raimondi']='delimitMate'
    ['python-mode']='python-mode'
    ['vim-airline']='vim-airline'
-   ['vim-syntastic']='syntastic'
    ['rafi']='awesome-vim-colorschemes'
   )
 
