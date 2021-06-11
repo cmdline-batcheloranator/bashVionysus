@@ -14,10 +14,13 @@ set background=dark
 
 colorscheme PaperColor 
 
-let g:tagbar_width=13
+let g:tagbar_width=25
 let g:NERDTreeWinSize=13
 
 highlight LineNr ctermfg=magenta
 
-autocmd vimenter * NERDTree
 autocmd vimenter * Tagbar
+autocmd vimenter * NERDTree
+
+autocmd vimleave * TagbarClose
+autocmd vimleave * NERDTreeClose 
