@@ -1,8 +1,8 @@
-brew install   \
-    go         \
-    mono       \
-    ctags      \
-    cmake      \
-    nodejs     \
-    python     \
-    vim --HEAD
+brew install           \
+            go         \
+            mono       \
+            ctags      \
+            cmake      \
+            nodejs     \
+            python     \
+            vim --HEAD
