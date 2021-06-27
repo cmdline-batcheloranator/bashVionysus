@@ -15,12 +15,16 @@ repos=(
   )
 
 # get plugin if not installed 
-for i in ${!repos[@]}; do 
-   [ ! -d $bun/${repos[$i]} ] &&
-     git clone              \
-        $gh/$i/${repos[$i]} \
-	$bun/${repos[$i]}
-done
+getPlugin() {
+  [ ! -d $bun/${repos[$1]} ] &&
+   git clone           \
+   $gh/$i/${repos[$i]} \
+   $bun/${repos[$i]}
+ }
+
+export -f getPlugin
+
+parallel -j 0 getPlugin ::: "${repos[@]"
 
 # fzf install 
 $bun/fzf/install --all
