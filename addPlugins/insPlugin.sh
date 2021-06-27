@@ -17,9 +17,9 @@ repos=(
 # get plugin if not installed 
 for i in ${!repos[@]}; do 
    [ ! -d $bun/${repos[$i]} ] &&
-     git clone                    \
-              $gh/$i/${repos[$i]} \
-	      $bun/${repos[$i]}
+     git clone              \
+        $gh/$i/${repos[$i]} \
+	$bun/${repos[$i]}
 done
 
 # fzf install 
