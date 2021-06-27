@@ -24,7 +24,7 @@ getPlugin() {
 
 export -f getPlugin
 
-parallel -j 0 getPlugin ::: "${repos[@]"
+parallel -j 0 getPlugin ::: ${repos[@]
 
 # fzf install 
 $bun/fzf/install --all
